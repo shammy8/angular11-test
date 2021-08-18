@@ -18,6 +18,10 @@
     "module": "es2020",
     "lib": ["es2018", "dom"]
   },
+  "include": [
+    "src/**/*.d.ts",
+    "./node_modules/@xbs/webix-pro/types/webix.global.d.ts"
+  ],
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
